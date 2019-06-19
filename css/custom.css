@@ -1,0 +1,119 @@
+nav.navbar {
+    background-color: #7d63ec;
+    width: 100vw;
+    height: 64px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+nav.navbar .nav-container {
+    padding: 0 20px 0 25px;
+    margin: 0;
+    width: 100vw;
+}
+
+nav.navbar ul {
+    display: flex;
+    list-style-type: none;
+}
+nav.navbar ul .nav-item  .text-label {
+    position: absolute;
+    bottom: 60px;
+    left: 420px;
+    background: #0bc6c4;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 4px 8px 3px;
+    line-height: 1;
+    border-radius: 9px;
+    text-transform: uppercase;
+    box-shadow: 0 2px 2px rgba(0,0,0,.07);
+
+}
+nav.navbar ul .nav-item a {
+    /* padding-top: 10px; */
+    color: #28118c;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 12px .5rem 9px !important;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+nav.navbar ul .nav-item a i {
+    font-size: 22px;
+}
+nav.navbar ul .nav-item a.btn-pur {
+    display: inline-block;
+    margin: 0 10px 0 auto;
+    padding: 7px 25px !important;
+    background: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fd5962;
+    border-radius: 4px;
+    transition: background .3s ease,box-shadow .3s ease;
+    box-shadow: 0 3px 7px rgba(0,0,0,.15);
+    border: 2px solid #e4e1f3;
+}
+nav.navbar ul .nav-item.active   {
+     
+    border-bottom: 8px solid #beb2f6;
+}
+nav.navbar ul .nav-item:hover   {
+     
+    border-bottom: 8px solid #bfb2f652;
+}
+nav.navbar ul.right .nav-item:hover   {
+     
+    border-bottom: none;
+}
+nav.navbar ul .nav-item.active  a  {
+    color: white;
+}
+nav.navbar ul .nav-item a .text {
+    position: relative;
+    bottom: 5px;
+    
+    font-family: 'Roboto', sans-serif;
+}
+nav.navbar ul.left {}
+
+nav.navbar ul.right {
+    float: right;
+}
+
+body {
+    background-color: #eaeef9;
+    font-family: 'Roboto', sans-serif;
+}
+
+.side-bar {
+    background: #f2f3f6;
+    padding: 15px; 
+    padding-left: 30px;
+    color: #212121;
+
+}
+.side-bar label { 
+    font-weight: 400;
+    margin-bottom: 2px;
+    font-size: 12px;
+    font-weight: 400;
+
+}
+.side-bar .form-control {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    outline: 0;
+    border: 1px solid #e5e5e5;
+    padding: 10px 30px 10px 10px;
+    font-size: 13px;
+    background: #fff;
+    border-radius: 5px;
+}
+.side-bar .form-control {
+
+}
